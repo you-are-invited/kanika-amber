@@ -1,0 +1,310 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+img {
+    border-radius: 50%;
+
+}
+
+.occasion {
+
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.main {
+
+    
+    font-size: 70px;
+    margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+
+
+}
+
+
+.container {
+
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#my-canvas {
+    position: absolute;
+}
+
+.hands {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.married {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.venue {
+    font-size: 21px;
+
+}
+
+.lunch-and-dancing {
+    margin-top: 50px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.invite {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.download-invitation {
+    padding: 10px 10px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: skyblue;
+}
+
+
+.row{
+    margin-top: 170px;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 150px;
+    margin-bottom: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+     clear: both;
+  }
+
+.column {
+    float: left;
+    width: 30%;
+}
+
+#amberText {
+text-align: center;
+margin-left: -130px;
+padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+float: left;
+width: 30%;
+}
+
+.row2 {
+    margin-top: 40px;
+}
+
+
+.ping {
+    color: red;
+    font-size: 25px;
+    display: block;
+    margin-top: 30px;
+}
+
+.mob {
+    font-size: 20px;
+
+}
+
+.mob a {
+    color: blue;
+    text-decoration: none;
+}
+
+.happiness {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.fa {
+    margin-bottom: 20px;
+}
+
+.background {
+    background: url("indian-wedding-background.webp");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+@media screen and (max-width: 480px) {
+
+body {
+    width: 100%;
+    background-image: url("bg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.download-invitation {
+    margin-bottom: -250px;
+}
+
+.row .column p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#amberText {
+    text-align: center!important;
+    padding: 0;
+    float: none;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    }
+
+.names {
+    font-size: 60px;
+}
+
+.married {
+    font-size: 24px;
+}
+
+.venue {
+    font-size: 15px;
+    padding: 15px;
+}
+
+.lunch-and-dancing {
+    font-size: 15px;
+}
+
+.invite {
+    font-size: 13px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+
+.row {
+    width: 100%;
+    flex-flow: column-reverse;
+    padding: 0;
+}
+
+.amber {
+    flex-direction: column;
+}
+
+
+.column {
+    width: 100%;
+}
+
+.img-amber {
+   position: relative;
+}
+
+.img-kanika {
+    margin-top: -50px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.occasion {
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ping {
+    font-size: 18px;
+}
+
+.mob {
+    font-size: 16px;
+}
+
+.happiness {
+    font-size: 18px;
+}
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .row {
+    text-align: center;
+    justify-content: space-between;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    }
+
+    .img-kanika {
+        margin-top: -420px;
+        margin-right: -100px;
+    }
+
+     .img-amber {
+        text-align: center;
+        margin-top: -300px;
+        width: 300px;
+        margin-left: -350px;
+        height: 250px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 50%;
+    }
+
+  
+
+}
+
+@media screen and (min-width: 864px) {
+
+    .img-kanika {
+        margin-top: 0px;
+        margin-right: -100px;
+    }
+
+     .img-amber {
+        text-align: center;
+        margin-top: 0px;
+        width: 300px;
+        margin-left: -150px;
+        height: 250px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 50%;
+    }
+
+
+}
+
+
