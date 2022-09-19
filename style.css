@@ -104,8 +104,9 @@ img {
 
 .container {
 
-    background-image: url("newbg.png");
+   /* background-image: url("newbg.png");*/
   /* background-image: url("bg3.png"); */
+    background-color: #F7F7F7;
     background-size: cover;
     background-position: 40%;
     background-repeat: no-repeat;
