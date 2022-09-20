@@ -66,10 +66,12 @@ div{
     font-family: 'SansationLight';
 }
 
-img {
+ .img-amber, .img-kanika {
     border-radius: 50%;
 
 }
+
+
 
 .occasion {
 
@@ -104,9 +106,10 @@ img {
 
 .container {
 
-   /* background-image: url("newbg.png");*/
+   /*background-image: url("newbg.png");*/
   /* background-image: url("bg3.png"); */
-    background-color: #F7F7F7;
+   /* background-color: #F7F7F7; */
+    background-color: #EDDBD9; 
     background-size: cover;
     background-position: 40%;
     background-repeat: no-repeat;
@@ -176,10 +179,13 @@ p {
 
 .download-invitation {
     padding: 8px 8px;
-    margin-top: 30px;
+    margin-top: 10px;
+    padding: 15px 10px;
     border-radius: 30px;
+    cursor: pointer;
     font-size: 15px;
     border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background-color: #d6abc4;
 }
 
@@ -187,6 +193,8 @@ p {
     text-decoration: none;
     color: black;
 }
+
+
 
 
 .row{
@@ -295,6 +303,12 @@ path {
 /*phone*/
 @media screen and (max-width: 480px) {
 
+.img-kanika {
+
+    margin-top: -250px;
+
+    }
+
     .curve-text {
         display: block;
         width: 100%;
@@ -308,12 +322,15 @@ path {
         margin-bottom: 20px;
     }
     
+    
 
     .save-the-date {
 
         font-size: 45px;
-        margin-top: -70px;
+        margin-top: -40px;
         font-family: 'Alex Brush';
+        
+
     
     }
 
@@ -359,8 +376,11 @@ body {
 }
 
 .download-invitation {
-    margin-bottom: -250px;
+    margin-bottom: 0;
+
+
 }
+
 
 .row .column p {
     padding-left: 40px;
@@ -385,7 +405,7 @@ body {
 }
 
 .married {
-    margin-top: -160px;
+    margin-top: -130px;
     font-size: 25px;
 }
 
@@ -396,7 +416,7 @@ body {
 }
 
 .lunch-and-dancing {
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .invite {
@@ -427,7 +447,7 @@ body {
 }
 
 .img-kanika {
-    margin-top: -100px;
+    margin-top: -60px;
     margin-bottom: 20px;
     padding: 0;
 }
