@@ -339,7 +339,7 @@ path {
     }
 
     .new-background {
-        margin-top: -38px;
+        margin-top: -48px;
         background: url("elegant-blue.png");
         background-repeat: no-repeat;
     background-size: 500px 1000px;
@@ -382,7 +382,7 @@ path {
     background-image: url("new-flowers.png");
     text-align: center;
     content: "";
-    margin-top: -220px;
+    margin-top: -215px;
     top: -190px;
     z-index: -1;
     background-repeat: no-repeat;
