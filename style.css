@@ -6,6 +6,10 @@
    
 }
 
+br {
+    display: none;
+}
+
 .curve-text {
     display: none!important;
     width: 0%;
@@ -13,6 +17,10 @@
 
 .curve-text-desktop {
     font-family: 'Alex Brush';
+}
+
+.calendar img {
+    margin-top: -500px 
 }
 
 .celebrate {
@@ -64,6 +72,8 @@
 
 }
 
+
+
 @font-face {
     font-family: 'Satisfy';
     src: url('font/Satisfy/Satisfy-Regular.ttf');
@@ -76,7 +86,59 @@
     font-family: 'Abhaya Libre';
 }
 
+.wedding-date {
 
+    font-size: 40px;
+    font-family: 'Kalam';
+}
+
+.two-lives .walk {
+    font-size: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Kalam';
+}
+.line {
+    margin-top: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.loc .date-loc {
+    font-size: 35px;
+    font-family: Kalam;
+}
+
+.loc .at {
+    font-size: 35px;
+    font-family: 'Kalam';
+}
+
+.loc .banquet {
+    font-size: 35px;
+    font-family: 'Kalam';
+}
+
+.couple-img {
+    margin-top: 30px;
+    height: 400px;
+    margin-bottom: -220px;
+}
+
+.groom-and-bride {
+    font-family: 'Alex Brush';
+    font-size: 80px;
+}
 
 div{
     font-family: 'SansationLight';
@@ -125,9 +187,11 @@ div{
    /*background-image: url("newbg.png");*/
    /* background-color: #F7F7F7; */
    /* background-color: #EDDBD9; */
-   background-image: url("blue-flower.png"); 
+
+   background-image: url("elegant-blue.png"); 
     background-repeat: no-repeat;
-    background-position: -50 0;
+    
+
 }
 
 #my-canvas {
@@ -144,7 +208,7 @@ div{
     margin-right: auto;
 }
 .details {
-    background-image: url("blue-flower.png");
+    background-image: url("elegant-rev.png");
     text-align: center;
     background-repeat: no-repeat;
     background-position: -50 0;
@@ -196,13 +260,14 @@ p {
 }
 
 .download-invitation {
+    font-family: 'Kalam';
     padding: 4px 4px;
-    margin-left: -130px;
-    margin-top: 10px;
+    margin-left: -60px;
+    margin-top: 30px;
     padding: 10px 10px;
     border-radius: 30px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 32px;
     border: none;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background-color: #FED6D9;
@@ -259,14 +324,14 @@ width: 30%;
 .ping {
     font-family: 'Abhaya Libre';
     color: #8D2652;
-    font-size: 25px;
+    font-size: 35px;
     display: block;
     margin-top: 30px;
 }
 
 .mob {
     font-family: 'Abhaya Libre';
-    font-size: 25px;
+    font-size: 35px;
 
 }
 
@@ -295,8 +360,8 @@ path {
     display: block;
     font-family: 'Alex Brush';
     margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 40px;
+    margin-bottom: -120px;
+    font-size: 45px;
 }
 
 .fa {
@@ -322,6 +387,10 @@ path {
 /*phone*/
 @media screen and (max-width: 480px) {
 
+    br {
+        display: block;
+    }
+
     .two-lives {
         
         padding-left: 20px;
@@ -339,7 +408,7 @@ path {
     }
 
     .new-background {
-        margin-top: -48px;
+        margin-top: -89px;
         background: url("elegant-blue.png");
         background-repeat: no-repeat;
     background-size: 500px 1000px;
@@ -347,7 +416,21 @@ path {
         
     }
 
+    .download-invitation {
+        padding: 4px 4px;
+        margin-left: -130px;
+        margin-top: 10px;
+        padding: 10px 10px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 12px;
+        border: none;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        background-color: #FED6D9;
+    }
+
     .couple-img {
+        height: 200px;
         margin-left: 10px;
         display: flex;
         justify-content: left;
@@ -358,6 +441,27 @@ path {
         margin-top: -50px;
         margin-left: 120px;
     }
+
+    .loc .date-loc {
+        font-size: 17px;
+    }
+
+    .loc .at {
+        font-size: 15px;
+    }
+
+
+    .loc .banquet {
+        font-size: 15px;
+    }
+
+    .two-lives .walk {
+        font-size: 15px;
+        padding: 0;
+    font-family: 'Kalam';
+}
+       
+    
 
 .line {
     width: 60%;
@@ -382,7 +486,7 @@ path {
     background-image: url("new-flowers.png");
     text-align: center;
     content: "";
-    margin-top: -215px;
+    margin-top: -231px;
     top: -190px;
     z-index: -1;
     background-repeat: no-repeat;
@@ -442,7 +546,6 @@ path {
     }
 
     .celebrate {
-        margin-top: -60px;
         font-family: 'Alex Brush';
         font-size: 25px;
         margin-bottom: 20px;
