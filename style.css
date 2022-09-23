@@ -23,6 +23,11 @@ br {
     margin-top: -500px 
 }
 
+.calendar {
+    width: 500px;
+    height: 500px;
+}
+
 .celebrate {
     font-family: 'Alex Brush';
     font-size: 45px;
@@ -439,7 +444,7 @@ path {
     .date {
     
         margin-top: -50px;
-        margin-left: 120px;
+        margin-left: 180px;
     }
 
     .loc .date-loc {
@@ -473,13 +478,13 @@ path {
 
 
 .calendar {
-    top: 100;
+    top: 130;
     display: flex;
-    left: 100px;
+    left: 130px;
     align-items: center;
     justify-content: center;
     position: absolute;
-    height: 300px;
+    height: 280px;
     width: 300px;
 }
 
@@ -557,7 +562,7 @@ path {
     .save-the-date {
 
         font-size: 45px;
-        margin-top: -45px;
+        margin-top: -30px;
         margin-left: 100px;
         font-family: 'Alex Brush';
         
