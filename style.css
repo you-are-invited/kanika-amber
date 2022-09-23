@@ -31,7 +31,6 @@
     margin-bottom: -130px;
 }
 
-
 @font-face {
     font-family: 'Anastasia Script';
     src: url('font/anastasia_script/Anastasia.ttf');
@@ -39,6 +38,15 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('font/kalam/Kalam-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 @font-face {
     font-family: 'Abhaya Libre';
@@ -51,6 +59,14 @@
 @font-face {
     font-family: 'Alex Brush';
     src: url('font/Alex_Brush/AlexBrush-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Satisfy';
+    src: url('font/Satisfy/Satisfy-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -107,12 +123,11 @@ div{
 .container {
 
    /*background-image: url("newbg.png");*/
-  /* background-image: url("bg3.png"); */
    /* background-color: #F7F7F7; */
-    background-color: #EDDBD9; 
-    background-size: cover;
-    background-position: 40%;
+   /* background-color: #EDDBD9; */
+   background-image: url("blue-flower.png"); 
     background-repeat: no-repeat;
+    background-position: -50 0;
 }
 
 #my-canvas {
@@ -129,7 +144,10 @@ div{
     margin-right: auto;
 }
 .details {
+    background-image: url("blue-flower.png");
     text-align: center;
+    background-repeat: no-repeat;
+    background-position: -50 0;
     margin-top: 20px;
 }
 
@@ -178,15 +196,16 @@ p {
 }
 
 .download-invitation {
-    padding: 8px 8px;
+    padding: 4px 4px;
+    margin-left: -130px;
     margin-top: 10px;
-    padding: 15px 10px;
+    padding: 10px 10px;
     border-radius: 30px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 12px;
     border: none;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: #d6abc4;
+    background-color: #FED6D9;
 }
 
 .download-invitation a {
@@ -285,7 +304,7 @@ path {
 }
 
 .background {
-    background: url("indian-wedding-background.webp");
+ /*   background: url("indian-wedding-background.webp"); */
     background-repeat: no-repeat;
     position: absolute;
 }
@@ -303,6 +322,112 @@ path {
 /*phone*/
 @media screen and (max-width: 480px) {
 
+    .two-lives {
+        
+        padding-left: 20px;
+        padding-right: 150px;
+        font-family: 'Abhaya Libre';
+    }
+
+    .walk {
+        font-family: 'Kalam';
+        font-size: 15px;
+    }
+
+    .wedding-date {
+        font-size: 15px;
+    }
+
+    .new-background {
+        margin-top: -17px;
+        background: url("elegant-blue.png");
+        background-repeat: no-repeat;
+    background-size: 500px 1000px;
+    background-position: -50 0;
+        
+    }
+
+    .couple-img {
+        margin-left: 10px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .date {
+    
+        margin-top: -50px;
+        margin-left: 120px;
+    }
+
+.line {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.calendar {
+    top: 200;
+    display: flex;
+    left: 100px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+}
+
+.details {
+    background-image: url("new-flowers.png");
+    text-align: center;
+    content: "";
+    margin-top: -198px;
+    top: -190px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: -50 0;
+   
+}
+
+.loc p {
+    font-size: 15px;
+    font-family: 'Kalam';
+
+}
+
+.date-loc {
+    margin-bottom: -20px;
+}
+
+.at {
+    margin-bottom: -20px;
+}
+
+.with {
+    font-size: 26px;
+}
+
+.groom-and-bride {
+    font-size: 50px;
+    font-family: "Alex Brush";
+}
+
+
+  
+    .container {
+
+        /*background-image: url("newbg.png");*/
+        /* background-color: #F7F7F7; */
+        /* background-color: #EDDBD9; */
+        background-image: url("blue-flower.png"); 
+         background-size: 500px 500px;
+         background-repeat: no-repeat;
+         background-position: -50 0;
+     }
+     
+
 .img-kanika {
 
     margin-top: -250px;
@@ -317,6 +442,7 @@ path {
     }
 
     .celebrate {
+        margin-top: -60px;
         font-family: 'Alex Brush';
         font-size: 25px;
         margin-bottom: 20px;
@@ -327,7 +453,8 @@ path {
     .save-the-date {
 
         font-size: 45px;
-        margin-top: -40px;
+        margin-top: 40px;
+        margin-left: 100px;
         font-family: 'Alex Brush';
         
 
@@ -368,7 +495,7 @@ path {
 
 body {
     width: 100%;
-    background-image: url("newbg.png");
+  /*  background-image: url("newbg.png"); */
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -453,7 +580,8 @@ body {
 }
 
 .occasion {
-    margin-top: 30px;
+    margin-left: 120px;
+    margin-top: -150px;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -471,6 +599,7 @@ body {
 .happiness {
     margin-top: 40px;
     font-size: 35px;
+    margin-bottom: -100px;
 }
 
 
@@ -497,6 +626,7 @@ body {
 
     .celebrate {
         text-align: center;
+        margin-top: -60px;
     }
 
     .img-kanika {
