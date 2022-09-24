@@ -146,7 +146,7 @@ br {
 
 .follow-the-venue {
     background: url('elegant-blue.png');
-    background-position: 50%;
+    background-position: cover;
 }
 
 div{
