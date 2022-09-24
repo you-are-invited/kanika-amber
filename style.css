@@ -1,8 +1,7 @@
 
 * {
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
    
 }
 
@@ -145,6 +144,11 @@ br {
     font-size: 80px;
 }
 
+.follow-the-venue {
+    background: url('elegant-blue.png');
+    background-position: 50%;
+}
+
 div{
     font-family: 'SansationLight';
 }
@@ -278,6 +282,7 @@ p {
     background-color: #FED6D9;
 }
 
+
 .download-invitation a {
     text-decoration: none;
     color: black;
@@ -396,6 +401,10 @@ path {
         display: block;
     }
 
+    .couple-image-and-text {
+        margin-top: 60px;
+    }
+
     .two-lives {
         
         padding-left: 20px;
@@ -478,7 +487,7 @@ path {
 
 
 .calendar {
-    top: 150;
+    top: 130;
     display: flex;
     left: 130px;
     align-items: center;
@@ -789,8 +798,8 @@ body {
         margin-top: -132px;
        
     }
-    
-     .calendar {
+
+    .calendar {
         width: 350px;
     }
 
@@ -803,6 +812,5 @@ body {
     }
 
 }
-
 
 
