@@ -390,7 +390,7 @@ path {
 }
 
 /*phone*/
-@media screen and (max-width: 480px) {
+@media (min-width:345px) and (max-width:480px) {
 
     br {
         display: block;
@@ -781,5 +781,16 @@ body {
 
 
 }
+
+
+@media screen and (max-width: 342px) {
+
+    .new-background {
+        margin-top: -132px;
+       
+    }
+
+}
+
 
 
