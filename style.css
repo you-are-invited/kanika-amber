@@ -789,6 +789,18 @@ body {
         margin-top: -132px;
        
     }
+    
+     .calendar {
+        width: 350px;
+    }
+
+    .couple-img {
+        margin-top: 170px;
+    }
+
+    .download-invitation {
+        margin-left: 0;
+    }
 
 }
 
