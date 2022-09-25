@@ -181,7 +181,7 @@ div{
 
 .main {
 
-    height: 100vh;
+    
     font-size: 70px;
     margin-left: auto;
    margin-right: auto;
@@ -450,11 +450,12 @@ path {
         justify-content: left;
     }
 
-   .date {
-    margin-top: -72px;
-    margin-left: 180px;
-    position: absolute;
-}
+    .date {
+    
+        margin-top: -50px;
+        margin-left: 180px;
+    }
+
     .loc .date-loc {
         font-size: 17px;
     }
@@ -486,14 +487,14 @@ path {
 
 
 .calendar {
-    top: 103px;
+    top: 130;
     display: flex;
-    left: 97px;
+    left: 130px;
     align-items: center;
     justify-content: center;
     position: absolute;
-    height: 518px;
-    width: 347px;
+    height: 280px;
+    width: 300px;
 }
 
 .details {
@@ -504,7 +505,7 @@ path {
     top: -190px;
     z-index: -1;
     background-repeat: no-repeat;
-    background-size: 500px 700px;
+    background-size: 500px 550px;
     background-position: -50 0;
    
 }
@@ -540,7 +541,7 @@ path {
         /* background-color: #F7F7F7; */
         /* background-color: #EDDBD9; */
         background-image: url("blue-flower.png"); 
-         background-size: 500px 700px;
+         background-size: 500px 500px;
          background-repeat: no-repeat;
          background-position: -50 0;
      }
@@ -567,12 +568,16 @@ path {
     
     
 
-   .save-the-date {
-    font-size: 46px;
-    margin-top: -20px;
-    margin-left: 123px;
-    font-family: 'Alex Brush';
-}
+    .save-the-date {
+
+        font-size: 45px;
+        margin-top: -30px;
+        margin-left: 100px;
+        font-family: 'Alex Brush';
+        
+
+    
+    }
 
     .flower {
         margin-top: 40px;
@@ -807,5 +812,4 @@ body {
     }
 
 }
-
 
