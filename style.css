@@ -450,12 +450,11 @@ path {
         justify-content: left;
     }
 
-    .date {
-    
-        margin-top: -50px;
-        margin-left: 180px;
-    }
-
+   .date {
+    margin-top: -86px;
+    margin-left: 180px;
+    position: absolute;
+}
     .loc .date-loc {
         font-size: 17px;
     }
@@ -487,14 +486,14 @@ path {
 
 
 .calendar {
-    top: 130;
+    top: 103px;
     display: flex;
-    left: 130px;
+    left: 97px;
     align-items: center;
     justify-content: center;
     position: absolute;
-    height: 280px;
-    width: 300px;
+    height: 518px;
+    width: 347px;
 }
 
 .details {
@@ -568,16 +567,12 @@ path {
     
     
 
-    .save-the-date {
-
-        font-size: 45px;
-        margin-top: -30px;
-        margin-left: 100px;
-        font-family: 'Alex Brush';
-        
-
-    
-    }
+   .save-the-date {
+    font-size: 46px;
+    margin-top: -20px;
+    margin-left: 123px;
+    font-family: 'Alex Brush';
+}
 
     .flower {
         margin-top: 40px;
