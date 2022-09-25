@@ -505,9 +505,8 @@ path {
     top: -190px;
     z-index: -1;
     background-repeat: no-repeat;
-    background-size: 500px 550px;
-    background-position: -50 0;
-   
+    background-size: 468px 714px;
+    background-position: -39px 9px;
 }
 
 .loc p {
@@ -534,17 +533,15 @@ path {
 }
 
 
-  
-    .container {
-
-        /*background-image: url("newbg.png");*/
-        /* background-color: #F7F7F7; */
-        /* background-color: #EDDBD9; */
-        background-image: url("blue-flower.png"); 
-         background-size: 500px 500px;
-         background-repeat: no-repeat;
-         background-position: -50 0;
-     }
+ .container {
+    /* background-image: url("newbg.png"); */
+    /* background-color: #F7F7F7; */
+    /* background-color: #EDDBD9; */
+    background-image: url("blue-flower.png");
+    background-size: 500px 435px;
+    background-repeat: no-repeat;
+    background-position: -50 0;
+}
      
 
 .img-kanika {
