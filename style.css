@@ -501,12 +501,12 @@ path {
     background-image: url("new-flowers.png");
     text-align: center;
     content: "";
-    margin-top: -231px;
+    margin-top: -245px;
     top: -190px;
     z-index: -1;
     background-repeat: no-repeat;
-    background-size: 468px 714px;
-    background-position: -39px 9px;
+    background-size: 420px 714px;
+    background-position: -41px 9px;
 }
 
 .loc p {
