@@ -411,6 +411,8 @@ path {
 @media (min-width:345px) and (max-width:480px) {
 
     .container {
+        background-image: url("elegant-blue-removebg.png");
+        background-repeat: no-repeat;
         background-color: #F3F7FA;
 
     }
