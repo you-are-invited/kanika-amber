@@ -466,6 +466,11 @@ path {
         
     }
     */
+    
+    .new-background {
+        background: url("empty-blue.png");
+    }
+    
 
     .download-invitation {
         padding: 4px 4px;
