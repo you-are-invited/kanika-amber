@@ -230,7 +230,7 @@ div{
     margin-right: auto;
 }
 .details {
-     background-image: url("elegant-rev.png");
+    background-image: url("empty-blue.png");
     
     background-repeat: no-repeat;
     background-position: -50 100;
@@ -412,7 +412,7 @@ path {
 @media (min-width:345px) and (max-width:480px) {
 
     .container {
-        background-image: url("elegant-blue-removebg.png");
+        background-image: url("empty-blue.png");
         background-repeat: no-repeat;
         background-color: #F3F7FA;
 
