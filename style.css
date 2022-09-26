@@ -5,6 +5,8 @@
    
 }
 
+
+
 br {
     display: none;
 }
@@ -144,10 +146,11 @@ br {
     font-size: 80px;
 }
 
-.follow-the-venue {
-    background: url('elegant-blue.png');
+ /*.follow-the-venue {
+   background: url('elegant-blue.png');
     background-position: cover;
 }
+*/
 
 div{
     font-family: 'SansationLight';
@@ -191,17 +194,13 @@ div{
 }
 
 
-.container {
-
-   /*background-image: url("newbg.png");*/
-   /* background-color: #F7F7F7; */
-   /* background-color: #EDDBD9; */
-
+/*.container {
    background-image: url("elegant-blue.png"); 
     background-repeat: no-repeat;
     
 
 }
+*/
 
 #my-canvas {
     position: absolute;
@@ -217,10 +216,11 @@ div{
     margin-right: auto;
 }
 .details {
-    background-image: url("elegant-rev.png");
-    text-align: center;
+    /*background-image: url("elegant-rev.png");
+    
     background-repeat: no-repeat;
-    background-position: -50 0;
+    background-position: -50 0;*/
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -378,11 +378,11 @@ path {
     margin-bottom: 20px;
 }
 
-.background {
- /*   background: url("indian-wedding-background.webp"); */
+/*.background {
+    background: url("indian-wedding-background.webp"); 
     background-repeat: no-repeat;
     position: absolute;
-}
+}*/
 
 .division {
     font-family: 'Anastasia Script';
@@ -397,12 +397,31 @@ path {
 /*phone*/
 @media (min-width:345px) and (max-width:480px) {
 
+    .container {
+        background-color: #F3F7FA;
+
+    }
+
+
+    .f1 {
+        position: absolute;
+        top: -20px;
+        left: -200px;
+    }
+
+    .f2 {
+        position: absolute;
+        top: 440px;
+        right: -220px;
+        transform: scaleX(-1);
+    }
+
     br {
         display: block;
     }
 
     .couple-image-and-text {
-        margin-top: 68px;
+        margin-top: -80px;
     }
 
     .two-lives {
@@ -410,6 +429,7 @@ path {
         padding-left: 20px;
         padding-right: 150px;
         font-family: 'Abhaya Libre';
+        margin-top: 25px;
     }
 
     .walk {
@@ -421,14 +441,15 @@ path {
         font-size: 15px;
     }
 
-    .new-background {
+     /*.new-background {
         margin-top: -150px;
-        background: url("elegant-blue.png");
+       background: url("elegant-blue.png");
         background-repeat: no-repeat;
     background-size: 480px 1000px;
     background-position: -50 0;
         
     }
+    */
 
     .download-invitation {
         padding: 4px 4px;
@@ -445,7 +466,7 @@ path {
 
     .couple-img {
         height: 200px;
-        margin-left: 0px;
+        margin-left: 10px;
         display: flex;
         justify-content: left;
     }
@@ -453,7 +474,7 @@ path {
     .date {
     
         margin-top: -50px;
-        margin-left: 180px;
+        margin-left: 110px;
     }
 
     .loc .date-loc {
@@ -489,7 +510,7 @@ path {
 .calendar {
     top: 130;
     display: flex;
-    left: 130px;
+    left: 100px;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -498,15 +519,16 @@ path {
 }
 
 .details {
-    background-image: url("new-flowers.png");
+   /* background-image: url("new-flowers.png"); 
+   background-repeat: no-repeat;
+   background-size: 420px 714px;
+   background-position: 0px 9px;*/
     text-align: center;
     content: "";
     margin-top: -245px;
     top: -190px;
     z-index: -1;
-    background-repeat: no-repeat;
-    background-size: 420px 714px;
-    background-position: 0px 9px;
+   
 }
 
 .loc p {
@@ -533,15 +555,13 @@ path {
 }
 
 
- .container {
-    /* background-image: url("newbg.png"); */
-    /* background-color: #F7F7F7; */
-    /* background-color: #EDDBD9; */
-    background-image: url("blue-flower.png");
+  /*.container {
+   background-image: url("blue-flower.png");
     background-size: 500px 435px;
     background-repeat: no-repeat;
     background-position: -50 0;
-}
+    
+}*/
      
 
 .img-kanika {
@@ -608,14 +628,14 @@ path {
 
   
 
-body {
+ /*body {
     width: 100%;
-  /*  background-image: url("newbg.png"); */
+   background-image: url("newbg.png"); 
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     
-}
+}*/
 
 .download-invitation {
     margin-bottom: 40px;
@@ -809,4 +829,3 @@ body {
     }
 
 }
-
