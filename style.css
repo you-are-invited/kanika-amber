@@ -497,6 +497,7 @@ path {
 
     .date {
     
+        position: absolute;
         margin-top: 0px;
         margin-left: 110px;
     }
@@ -532,6 +533,7 @@ path {
 
 
 .calendar {
+    position: relative;
     top: 130;
     display: flex;
     left: 50px;
