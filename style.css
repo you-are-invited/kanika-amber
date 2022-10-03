@@ -197,9 +197,6 @@ div{
 
 
 .main {
-
-    
-    font-size: 70px;
     margin-left: auto;
    margin-right: auto;
    text-align: center;
@@ -433,7 +430,7 @@ path {
 
     .f2 {
         position: absolute; 
-        top: 440px;
+        top: 800px;
         right: -220px;
         transform: scaleX(-1);
     }
@@ -460,7 +457,7 @@ path {
     }
 
     .wedding-date {
-        font-size: 15px;
+        font-size: 20px;
     }
 
      /*.new-background {
@@ -500,7 +497,7 @@ path {
 
     .date {
     
-        margin-top: -50px;
+        margin-top: 0px;
         margin-left: 110px;
     }
 
@@ -527,7 +524,7 @@ path {
     
 
 .line {
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -537,12 +534,12 @@ path {
 .calendar {
     top: 130;
     display: flex;
-    left: 100px;
+    left: 50px;
     align-items: center;
     justify-content: center;
     position: absolute;
-    height: 280px;
-    width: 300px;
+    height: 60%;
+    width: 100%;
 }
 
 .details {
@@ -615,7 +612,7 @@ path {
     .save-the-date {
 
         font-size: 45px;
-        margin-top: -30px;
+        margin-top: 35px;
         margin-left: 100px;
         font-family: 'Alex Brush';
         
