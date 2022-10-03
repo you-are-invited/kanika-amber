@@ -434,7 +434,7 @@ path {
     }
 
     .f2 {
-        position: absolute;
+        position: absolute; 
         top: 440px;
         right: -220px;
         transform: scaleX(-1);
