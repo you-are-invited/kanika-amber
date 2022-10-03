@@ -13,8 +13,8 @@
 
 .f2 {
     position: absolute;
-    top: 440px;
-    right: -220px;
+    top: 775px;
+    right: -212px;
     transform: scaleX(-1);
 }
 
@@ -410,6 +410,14 @@ path {
 
 /*phone*/
 @media (min-width:345px) and (max-width:480px) {
+    
+    
+    width {
+        
+        width: 100%;
+        height: 100%;
+        
+    }
 
     .container {
         background-image: url("empty-blue.png");
