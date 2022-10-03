@@ -405,6 +405,41 @@ path {
     flex-direction: row;
 }
 
+@media (min-width:200px) and (max-width:340px) {
+
+    .f1, .f2 {
+        display: none;
+    }
+
+    .two-lives .walk {
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Kalam';
+    }
+
+    .wedding-date {
+        font-size: 25px;
+    }
+
+    .line {
+        width: 85%;
+    }
+
+    .calendar {
+        width: 100%;
+    }
+
+    .download-invitation {
+        margin-left: 0px;
+    }
+
+    .groom-and-bride {
+        margin-top: 15px;
+    }
+
+}
+
 /*phone*/
 @media (min-width:345px) and (max-width:480px) {
     
@@ -836,7 +871,9 @@ path {
 }
 
 
-@media screen and (max-width: 342px) {
+@media screen and (max-width: 330px) {
+
+    
 
 
     .new-background {
@@ -845,7 +882,7 @@ path {
     }
 
     .calendar {
-        width: 350px;
+        width: 60%;
     }
 
     .couple-img {
@@ -854,6 +891,17 @@ path {
 
     .download-invitation {
         margin-left: 0;
+    }
+
+    .two-lives .walk {
+            font-size: 16px;
+            /* padding-left: 150px; */
+            /* padding-right: 150px; */
+            font-family: 'Kalam';
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-bottom: 30px;
+       
     }
 
 }
