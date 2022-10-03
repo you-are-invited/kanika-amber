@@ -470,6 +470,11 @@ path {
         background-color: #F3F7FA;
 
     }
+    
+    body {
+        
+        overflow-x: hidden;
+    }
 
 
     .f1 {
