@@ -480,7 +480,7 @@ path {
 
     .f2 {
         position: absolute; 
-        top: 800px;
+        top: 700px;
         right: -220px;
         transform: scaleX(-1);
     }
