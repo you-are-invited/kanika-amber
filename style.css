@@ -499,14 +499,18 @@ path {
         left: -200px;
     }
 
+   
     .f2 {
+        width: 350px;
+        height: 527px;
         z-index: 1;
-        position: absolute; 
+        /* position: absolute; */
         top: 670px;
-        right: -220px;
-        transform: scaleX(-1);
+        right: -138px;
+        /* transform: scaleX(-1); */
     }
-
+    
+    
     br {
         display: block;
     }
