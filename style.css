@@ -734,6 +734,7 @@ path {
 
 .download-invitation {
     margin-bottom: 40px;
+    z-index: 1000
 
 
 }
