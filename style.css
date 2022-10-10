@@ -500,6 +500,7 @@ path {
     }
 
     .f2 {
+        z-index: 1;
         position: absolute; 
         top: 670px;
         right: -220px;
@@ -735,7 +736,7 @@ path {
 
 .download-invitation {
     margin-bottom: 40px;
-    z-index: 1;
+    z-index: 2;
 
 
 }
