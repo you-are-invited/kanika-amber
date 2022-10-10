@@ -477,7 +477,7 @@ path {
 
     button.download-invitation a {
         color: black;
-        z-index:9999
+        z-index:1
     }
 
     .container {
@@ -735,7 +735,7 @@ path {
 
 .download-invitation {
     margin-bottom: 40px;
-    z-index: 1000
+    z-index: 1;
 
 
 }
