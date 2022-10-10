@@ -477,6 +477,7 @@ path {
 
     button.download-invitation a {
         color: black;
+        z-index:9999
     }
 
     .container {
