@@ -923,7 +923,7 @@ path {
     
     .f2 {
         position: absolute;
-        top: -20px;
+        top: 100px;
         right: -520px;
         transform: scale(-0.15);
     	z-index: 1;
