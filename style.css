@@ -219,7 +219,9 @@ div{
 
 }
 
-
+#world{
+    z-index: -1;
+}
 
 .occasion {
 
