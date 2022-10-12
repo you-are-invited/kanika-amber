@@ -910,7 +910,7 @@ path {
 @media (min-width:320px)  { 
     .f1 {
         position: absolute;
-        top: -920px;
+        top: -840px;
         left: -520px;
         transform: scale(0.16);
 	z-index: 1;
