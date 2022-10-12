@@ -5,19 +5,28 @@
    
 }
 
+body {
+    position: relative;
+    min-width: 100vw !important;
+    width: 100vw !important;
+}
+
 a {
     color: black;
 }
 
-.f2 {
-    overflow-x: hidden;
+.main {
+    margin-left: auto;
+   margin-right: auto;
+   text-align: center;
 }
 
 
-body {
-    position: relative;
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
-
 
 
 .date {
@@ -26,15 +35,18 @@ body {
 
 .f1 {
     position: absolute;
-    top: -20px;
-    left: -200px;
+    top: -400px;
+    left: -500px;
+    transform: scale(0.3);
 }
 
 .f2 {
+    overflow-x: hidden;
     position: absolute;
     top: 775px;
-    right: -212px;
-    transform: scaleX(-1);
+    right: -500px;
+    transform: scale(-0.3);
+    z-index: -1;
 }
 
 
@@ -53,13 +65,23 @@ br {
 }
 
 .calendar img {
-    margin-top: -500px;
+    /* margin-top: -500px; */
+}
+
+.calendarrr-div{
+    position: absolute; 
+    left: 2rem; 
+    top: 0; 
+    margin-top: 5rem;
+}
+.calendarrr{
+    width: 90vw;
 }
 
 .calendar {
-    width: 500px;
-    height: 500px;
-    transform: scale(0.9);
+    max-width: 800px;
+    width: 80vw;
+    height: auto;
 }
 
 .celebrate {
@@ -170,9 +192,11 @@ br {
 }
 
 .couple-img {
-    margin-top: 30px;
     height: 400px;
+/*    
+margin-top: 30px;
     margin-bottom: -220px;
+*/
 }
 
 .groom-and-bride {
@@ -209,29 +233,12 @@ div{
 }
 
 .save-the-date {
-
+    margin-left: 5rem;
+    margin-right: auto;
+    margin-top: 4rem;
     font-size: 85px;
     font-family: 'Alex Brush';
-
 }
-
-
-.main {
-    margin-left: auto;
-   margin-right: auto;
-   text-align: center;
-
-
-}
-
-
-/*.container {
-   background-image: url("elegant-blue.png"); 
-    background-repeat: no-repeat;
-    
-
-}
-*/
 
 #my-canvas {
     position: absolute;
@@ -246,6 +253,7 @@ div{
     margin-left: auto;
     margin-right: auto;
 }
+/*
 .details {
     background-image: url("empty-blue.png");
     
@@ -254,7 +262,7 @@ div{
     text-align: center;
     margin-top: 20px;
 }
-
+*/
 .married {
     margin-top: -100px;
     font-family: 'Abhaya Libre';
@@ -302,15 +310,16 @@ p {
 .download-invitation {
     font-family: 'Kalam';
     padding: 4px 4px;
-    margin-left: -60px;
     margin-top: 30px;
     padding: 10px 10px;
     border-radius: 30px;
     cursor: pointer;
     font-size: 32px;
     border: none;
+    /*
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background-color: #FED6D9;
+    */
 }
 
 
@@ -446,9 +455,6 @@ path {
         width: 85%;
     }
 
-    .calendar {
-        width: 100%;
-    }
 
     .download-invitation {
         margin-left: 0px;
@@ -468,24 +474,10 @@ path {
 
 /*phone*/
 @media (min-width:345px) and (max-width:480px) {
-    
-    
-   .full-screen {
-       position: relative;
-       width: 100%;
-       height: 100%;
-    }
 
     button.download-invitation a {
         color: black;
         z-index:1
-    }
-
-    .container {
-        background-image: url("empty-blue.png");
-        background-repeat: no-repeat;
-        background-color: #F3F7FA;
-
     }
     
     body {
@@ -494,38 +486,18 @@ path {
     }
 
 
-    .f1 {
-        position: absolute;
-        top: -20px;
-        left: -200px;
-    }
-
-   
-    .f2 {
-        width: 350px;
-        height: 527px;
-        z-index: 1;
-        /* position: absolute; */
-        top: 670px;
-        right: -138px;
-        /* transform: scaleX(-1); */
-    }
-    
     
     br {
         display: block;
     }
 
     .couple-image-and-text {
-        margin-top: -80px;
     }
 
     .two-lives {
         
-        padding-left: 20px;
-        padding-right: 150px;
         font-family: 'Abhaya Libre';
-        margin-top: -30px;
+        /* margin-top: -30px; */
     }
 
     .walk {
@@ -554,7 +526,6 @@ path {
 
     .download-invitation {
         padding: 4px 4px;
-        margin-left: -130px;
         margin-top: 10px;
         padding: 10px 10px;
         border-radius: 30px;
@@ -567,9 +538,11 @@ path {
 
     .couple-img {
         height: 200px;
+/*
         margin-left: 10px;
         display: flex;
         justify-content: left;
+*/
     }
 
     .date {
@@ -608,16 +581,18 @@ path {
     display: block;
 }
 
-
+.calendar-div{
+    margin-top: 5rem;
+}
 .calendar {
-    top: 130;
-    display: flex;
-    left: 50px;
+    /* top: 0; */
+    /* display: flex; */
+    /* left: 50px; */
     align-items: center;
-    justify-content: center;
-    position: absolute;
-    height: 60%;
-    width: 100%;
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* height: 60%;
+    width: 100%; */
 }
 
 .details {
@@ -657,15 +632,6 @@ path {
 }
 
 
-  /*.container {
-   background-image: url("blue-flower.png");
-    background-size: 500px 435px;
-    background-repeat: no-repeat;
-    background-position: -50 0;
-    
-}*/
-     
-
 .img-kanika {
 
     margin-top: -250px;
@@ -689,13 +655,8 @@ path {
 
     .save-the-date {
 
-        font-size: 45px;
-        margin-top: 65px;
-        margin-left: 100px;
+        font-size: 50px;
         font-family: 'Alex Brush';
-        
-
-    
     }
 
     .flower {
@@ -922,10 +883,6 @@ path {
        
     }
 
-    .calendar {
-        width: 60%;
-    }
-
     .couple-img {
         margin-top: 170px;
     }
@@ -946,3 +903,104 @@ path {
     }
 
 }
+
+@media (min-width:320px)  { 
+    .f1 {
+        position: absolute;
+        top: -920px;
+        left: -520px;
+        transform: scale(0.16);
+	z-index: 1;
+    }
+    
+    .f2 {
+        position: absolute;
+        top: -50px;
+        right: -550px;
+        transform: scale(-0.15);
+    	z-index: 1;
+    }
+    .calendarrr{
+        width: 90vw;
+    }
+}
+
+
+@media (min-width:481px)  { 
+    .f1 {
+        position: absolute;
+        top: -650px;
+        left: -500px;
+        transform: scale(0.18);
+        z-index: 1;
+    }
+   
+    .f2 {
+        position: absolute;
+        top: 10px;
+        right: -550px;
+        transform: scale(-0.18);
+        z-index: 1;
+    }
+    .calendar {
+        width: 500px;
+        height: 500px;
+        transform: scale(0.74);
+    }
+    .calendarrr{
+        width: 70vw;
+    }
+}
+
+@media (min-width:641px)  { 
+    .f1 {
+        position: absolute;
+        top: -500px;
+        left: -500px;
+        transform: scale(0.22);
+        z-index: 1;
+    }
+   
+    .f2 {
+        position: absolute;
+        top: 350px;
+        right: -630px;
+        transform: scale(-0.22);
+        z-index: 1;
+    }
+    .calendar {
+        width: 500px;
+        height: 500px;
+        transform: scale(0.74);
+    }
+    .calendarrr{
+        width: 40vw;
+    }
+ }
+
+ @media (min-width:961px)  { 
+    .f1 {
+        position: absolute;
+        top: -500px;
+        left: -500px;
+        transform: scale(0.22);
+        z-index: 1;
+    }
+  
+    .f2 {
+        position: absolute;
+        top: 350px;
+        right: -500px;
+        transform: scale(-0.22);
+        z-index: 1;
+    }
+    .calendar {
+        width: 500px;
+        height: 500px;
+        transform: scale(0.74);
+    }
+
+    .calendarrr{
+        width: 30vw;
+    }
+ }
