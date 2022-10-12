@@ -9,6 +9,7 @@ body {
     position: relative;
     min-width: 100vw !important;
     width: 100vw !important;
+    background-color: #faf7f0;
 }
 
 a {
@@ -237,7 +238,7 @@ div{
 .save-the-date {
     margin-left: 5rem;
     margin-right: auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 85px;
     font-family: 'Alex Brush';
 }
@@ -918,7 +919,7 @@ path {
     
     .f2 {
         position: absolute;
-        top: -50px;
+        top: -20px;
         right: -520px;
         transform: scale(-0.15);
     	z-index: 1;
