@@ -76,6 +76,8 @@
 <script src="index.min.js"></script>
 
 <script>
+
+
 (function() {
   var COLORS, Confetti, NUM_CONFETTI, PI_2, canvas, confetti, context, drawCircle, i, range, resizeWindow, xpos;
 
@@ -193,6 +195,23 @@
   step();
 
 }).call(this);
+
+
+var audio = new Audio;
+var flag = 0;
+    audio.src = "Kesariya-withoutdialogue.mp3";
+
+    document.addEventListener("click", function() {
+        console.log("Playing song");
+        if(flag == 0) {
+        audio.play();
+        flag = 1;
+        }
+        else {
+            audio.pause();
+            flag = 0
+        } 
+    })
 </script>
 
 </body>
