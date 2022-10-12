@@ -29,10 +29,59 @@
             <br>
             <div class="save-the-date">Save the Date</div> 
             <img class="calendar" src="clendar.png"></img>
+            <div>
+                <a href="#twoLives">
+                    <svg version="1.1" style="width: 80px; height: auto;"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                        x="0px" y="0px" width="400px" height="500px" viewBox="0 0 400 500" style="enable-background:new 0 0 455 455;"
+                        xml:space="preserve">
+                    <style type="text/css">
+                        .st0{opacity:0.15;fill:#000}
+                        .st1{opacity:0.15;fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
+    
+                    .text {
+                    animation: bounce 1s linear infinite;
+                    }
+    
+                    @keyframes bounce {
+                    10% {
+                        transform: translateY(-10px)
+                    }
+                    70% {
+                        transform: translateY(0)
+                    }
+                    }
+    
+                    </style>
+                    <defs>
+                    </defs>
+                    <circle class="st0" cx="200" cy="230" r="100"/>
+                    <circle class="st1" cx="200" cy="230" r="105">
+                            <animate attributeName="r" from="105" to="130" begin="0s" dur="1s" repeatCount="indefinite"/>
+                            <animate attributeName="opacity"
+                                from="0.15"
+                                to="0"
+                                dur="1s"
+                                begin="0s"
+                                repeatCount="indefinite"
+                                fill="freeze" 
+                                id="circ-anim"
+                        />
+                    </circle>
+                    <text class="text" x="90" y="70" 
+                            style="fill: #34495e;"
+                            font-family="Helvetica Neue" 
+                            font-weight="bold"
+                            font-size="55">
+                        Tap here
+                    </text>
+                    </svg>
+                </a>
+            </div>
         </div>
 
 
-        <div class="two-lives" style="margin-top: 2rem;">
+        <div class="two-lives" id="twoLives" style="margin-top: 16rem;">
             <p style="padding: 2%;" class="walk">Two lives are getting ready to walk one path. Together with our families we invite you to be a part of our big day.</p> <br>
             
             <div >
