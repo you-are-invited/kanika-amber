@@ -13,7 +13,6 @@ body {
     position: relative;
     min-width: 100vw !important;
     width: 100vw !important;
-    background-color: #faf7f0;
 }
 
 a {
@@ -997,7 +996,7 @@ path {
   
     .f2 {
         position: absolute;
-        top: 350px;
+        top: 450px;
         right: -500px;
         transform: scale(-0.22);
         z-index: 1;
